@@ -107,17 +107,6 @@ The selected relationships are exported as a CSV and imported into Maltego to de
 
 The portfolio graph intentionally remains small and readable. The purpose is to demonstrate the workflow and evidentiary linkage rather than create a complex intelligence network.
 
-The core relationship structure is:
-
-```text
-C001 ───────► C002 ───────► C009
-               │
-               ▼
-              P002
-               │
-               └──────────► C002
-```
-
 ### Screenshot 2 — Maltego Relationship Map
 
 ![Project Cedar — Maltego Relationship Map](screenshots/02-maltego-relationship-map.png)
@@ -240,27 +229,6 @@ A real investigation would require additional evidence and appropriate investiga
 - **CSV** — structured transfer of relationship data
 - **Maltego Graph** — link and network visualisation
 - **GitHub** — documentation, reproducibility, and portfolio presentation
-
----
-
-## Repository Structure
-
-```text
-project-cedar-financial-investigation/
-│
-├── README.md
-│
-├── analysis/
-│   └── Project-Cedar-Analysis.xlsx
-│
-├── report/
-│   └── Project-Cedar-Investigation-Report.pdf
-│
-└── screenshots/
-    ├── 01-spreadsheet-analysis.png
-    ├── 02-maltego-relationship-map.png
-    └── 03-maltego-link-evidence.png
-```
 
 ---
 
